@@ -1,0 +1,16 @@
+{% block content %} {% include "common/head.html" %}
+<form method="post" class="flex flex-col gap-2 w-[400px] mx-auto mt-10">
+  <label for="username">Username:</label>
+  <input type="text" placeholder="username" name="username" required />
+  <label for="password">Password:</label>
+  <input type="password" placeholder="password" name="password" required />
+  {% csrf_token %} {% if message %}
+  <p class="text-red-500 text-center">{{ message }}</p>
+  {% endif %}
+  <button type="submit">Login</button>
+  <div class="text-black text-sm">
+    Create new account from here,
+    <a href="/register" class="text-blue-600 underline">Register here</a>
+  </div>
+</form>
+{% endblock %}

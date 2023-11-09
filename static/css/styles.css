@@ -1,0 +1,31 @@
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border: 1px solid black;
+  padding: 4px 4px;
+  border-radius: 2px;
+}
+button[type="submit"],
+button[type="button"] {
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+  padding: 7px 0;
+}
+label {
+  font-weight: 600;
+}
+textarea {
+  border: 2px solid black;
+  height: 100px;
+  width: 100%;
+  border-radius: 2px;
+}
+textarea:focus,
+textarea:active {
+  outline: None;
+}
+.questions:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

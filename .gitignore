@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+__pycache__
+*.pyc
+*.pyo
+
+# Caches
+db.sqlite3
+*.sqlite3
+*.db
+
+# Log files
+*.log
+
+# Virtual environment
+venv/
+testing/
+.env
+
+# User uploads and media files (assuming you're using Django's media handling)
+media/
+
+
+
+# Secret key and other sensitive information
+*.secret_key
+*.settings
+
+# Local development settings
+local_settings.py
+
+# IDE-specific files (e.g., .vscode, .idea)
+.vscode/
+.idea/
+
+# Compiled Python files
+__pycache__/
+
+# Temporary files
+*.swp
+
+
+
+# .DS_Store files on macOS
+.DS_Store
